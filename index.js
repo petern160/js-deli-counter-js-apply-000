@@ -1,5 +1,11 @@
 var katzDeli = [];
+let ticket = 0
+
  function takeANumberNew(line){
+   ticket ++
+   line.push(ticket);
+   console.log("you are number " + ticket)
+   return "you are number " + ticket;
 
 
  }

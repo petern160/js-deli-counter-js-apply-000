@@ -6,8 +6,6 @@ let ticket = 0
    line.push(ticket);
    console.log("you are number " + ticket)
    return "you are number " + ticket;
-
-
  }
 
   function nowServing(line) {
